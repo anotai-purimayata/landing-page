@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 16px;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.right-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+}
+
+.first-section {
+    background-color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.first-section .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.first-section-image {
+    flex: 1;
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    min-width: 280px;
+}
+
+.first-section-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+.first-section-content p {
+    color: #E5E7EB;
+}
+
+.first-section button {
+    margin-top: 20px;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.second-section .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 160px;
+}
+
+.item-showcase {
+    border: 4px solid #3882F6;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+
