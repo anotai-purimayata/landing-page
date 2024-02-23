@@ -27,6 +27,15 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+p {
+    color: #E5E7EB;
 }
 
 .wrapper {
@@ -96,12 +105,13 @@ h2 {
     min-width: 280px;
 }
 
-.first-section-content p {
-    color: #E5E7EB;
+.first-section-content button {
+    margin-top: 20px;
 }
 
-.first-section button {
-    margin-top: 20px;
+
+button {
+
     background-color: #3882F6;
     padding: 8px 24px;
     color: #E5E7EB;
@@ -109,6 +119,15 @@ h2 {
     border: none;
     border-radius: 5px;
 }
+
+.second-section {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
 
 .second-section .wrapper{
     display: flex;
@@ -121,17 +140,87 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 32px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .item {
     width: 160px;
+    text-align: center;
 }
 
 .item-showcase {
     border: 4px solid #3882F6;
-    height: 300px;
+    height: 160px;
     width: 100%;
     border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+}
+
+.third-section .wrapper {
+    min-height: 400px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.third-section em {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.third-section strong {
+    text-align: right;
+}
+
+.fourth-section .wrapper {
+    background-color: #3882F6;
+    margin: 96px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.fourth-section-content {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.fourth-section-right button {
+    border: 2px solid #F9FAF8;
+}
+
+.fourth-section-left {
+    color: #E5E7EB;
+}
+
+.fourth-section-left p {
+    max-width: 400px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 68px;
+    color: #E5E7EB;
 }
 
 
